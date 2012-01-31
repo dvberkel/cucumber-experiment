@@ -1,4 +1,4 @@
-Given /^a new game$/ do
+Given /^a new scorecard$/ do
   pending
 end
 
