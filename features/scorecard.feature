@@ -8,4 +8,4 @@ Scenario: Score at the start of a game
   Given a new game
   And no rounds are played
   When a score is asked
-  Then it each player should score 0
+  Then each player should score 0
