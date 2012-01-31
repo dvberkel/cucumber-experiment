@@ -1,9 +1,8 @@
-Given /^a new scorecard$/ do
-  pending
-end
+$LOAD_PATH << './src'
+require 'scorecard.rb'
 
-Given /^no rounds are played$/ do
-  pending
+Given /^a new scorecard$/ do
+  scoreCard = ScoreCard.new
 end
 
 When /^a score is asked$/ do
